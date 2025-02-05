@@ -1,0 +1,20 @@
+﻿@model HotelManagementSystem.Models.Menu
+
+@{
+    ViewData["Title"] = "Menu Item Details";
+}
+
+<h1>Menu Item Details</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Item Name</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ItemName)</dd>
+        <dt class="col-sm-2">Price</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Price)</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.MenuId" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

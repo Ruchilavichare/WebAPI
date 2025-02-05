@@ -1,0 +1,25 @@
+﻿@model HotelManagementSystem.Models.Customer
+
+@{
+    ViewData["Title"] = "Delete Customer";
+}
+
+<h1>Delete Customer</h1>
+
+<h3>Are you sure you want to delete this customer?</h3>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Email)</dd>
+        <dt class="col-sm-2">Phone</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Phone)</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CustomerId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>
