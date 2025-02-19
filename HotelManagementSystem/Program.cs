@@ -20,7 +20,7 @@ namespace HotelManagementSystem
 
             builder.Services.AddHttpClient<MenuApiService>(client =>
             {
-                client.BaseAddress = new Uri("https://localhost:7114"); // Replace with your Web API URL
+                client.BaseAddress = new Uri("https://localhost:7114"); 
             });
 
             var app = builder.Build();
