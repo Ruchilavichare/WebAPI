@@ -1,7 +1,6 @@
 ﻿using HotelManagementSystem.API.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-
 namespace HotelManagementSystem.API.Data
 {
     public class HotelManagementDBContext : DbContext

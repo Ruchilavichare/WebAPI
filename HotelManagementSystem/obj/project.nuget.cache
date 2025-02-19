@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hrxEuNDQVu0=",
+  "dgSpecHash": "yk5eXUrIthQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\HotelManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\HotelManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ruchila\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Ruchila\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

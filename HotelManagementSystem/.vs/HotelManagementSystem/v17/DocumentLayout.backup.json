@@ -1,90 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\hotelmanagementdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:hotelmanagementdb_script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\services\\menuapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:services\\menuapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\order\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\services\\menuapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:services\\menuapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\menu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\views\\reports\\dailysalesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:views\\reports\\dailysalesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\projects\\hotelmanagementsystem\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\hotelmanagementsystem\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D72742-CF0C-437F-84EC-A3999BB09F0D}|HotelManagementSystem.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,264 +42,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T19:30:46.101Z",
-              "EditorCaption": ""
+              "Title": "HotelManagementDB_Script.sql",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\HotelManagementDB_Script.sql",
+              "RelativeDocumentMoniker": "HotelManagementDB_Script.sql",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\HotelManagementDB_Script.sql",
+              "RelativeToolTip": "HotelManagementDB_Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-13T17:53:34.573Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MenuApiService.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Services\\MenuApiService.cs",
-              "RelativeDocumentMoniker": "Services\\MenuApiService.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Services\\MenuApiService.cs",
-              "RelativeToolTip": "Services\\MenuApiService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T19:28:02.696Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-13T17:52:45.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T17:51:51.032Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T19:16:31.677Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T17:51:03.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Menu\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Menu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Views\\Menu\\Create.cshtml",
+              "RelativeToolTip": "Views\\Menu\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T17:49:36.883Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T19:16:27.603Z",
+              "WhenOpened": "2025-02-05T15:33:08.655Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:27:14.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAAAPIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T19:26:46.328Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Create.cshtml",
-              "RelativeToolTip": "Views\\Order\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:27:30.015Z"
+              "Title": "MenuApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Services\\MenuApiService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuApiService.cs",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Services\\MenuApiService.cs",
+              "RelativeToolTip": "Services\\MenuApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:47:38.826Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Order\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:28:08.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Create.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T18:28:20.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:00:27.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAIwIsAAAAJAAAAAAAAAA==",
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\HotelManagementSystem\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T18:12:56.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Order\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:28:34.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Order\\Details.cshtml",
-              "RelativeToolTip": "Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:28:50.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:31:32.28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:20:50.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Index.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:19:55.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Menu\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Menu\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Menu\\Details.cshtml",
-              "RelativeToolTip": "Views\\Menu\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:19:35.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Customer\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Customer\\Details.cshtml",
-              "RelativeToolTip": "Views\\Customer\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:18:40.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ReportsController.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\ReportsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Controllers\\ReportsController.cs",
-              "RelativeToolTip": "Controllers\\ReportsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T19:12:26.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DailySalesReport.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Reports\\DailySalesReport.cshtml",
-              "RelativeDocumentMoniker": "Views\\Reports\\DailySalesReport.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Views\\Reports\\DailySalesReport.cshtml",
-              "RelativeToolTip": "Views\\Reports\\DailySalesReport.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T19:15:21.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\Projects\\HotelManagementSystem\\Models\\Customer.cs",
-              "RelativeToolTip": "Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T19:01:39.425Z"
+              "WhenOpened": "2025-02-13T17:45:17.034Z"
             }
           ]
         }
