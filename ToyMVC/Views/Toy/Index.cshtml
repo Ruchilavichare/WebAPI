@@ -1,13 +1,26 @@
 ﻿@model List<ToyMVC.Models.Toy>
-
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 <h2>High Converting Toys</h2>
-<ul>
+<p>Find the best educational toys for toddlers in 2025!</p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Rating</th>
+        <th>Reviews</th>
+        <th>Buy Now</th>
+    </tr>
     @foreach (var toy in Model)
     {
-        <li>
-            <strong>@toy.Name</strong> - $@toy.Price <br />
-            ⭐ @toy.Rating stars - @toy.ReviewsCount reviews <br />
-            <a href="@toy.AffiliateLink" target="_blank">Buy Now</a>
-        </li>
+        <tr>
+            <td>@toy.Name</td>
+            <td>@toy.Price</td>
+            <td>@toy.Rating</td>
+            <td>@toy.ReviewsCount</td>
+            <td><a href="@toy.AffiliateLink" target="_blank">Buy</a></td>
+        </tr>
     }
-</ul>
+</table>
+

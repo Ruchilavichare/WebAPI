@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToyMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87bffcb0d79e6b91f1881b3197d7231f49a6d271")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+070be6a9a8b7d85c2abde63a8a9813966d4022c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToyMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToyMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

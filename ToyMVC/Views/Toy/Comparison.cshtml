@@ -1,0 +1,19 @@
+﻿@model List<Toy>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Side-by-Side Toy Comparison</h2>
+<p>Compare the top-rated toys and choose the best one for your child.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    @foreach (var toy in Model)
+    {
+        <div style="border: 1px solid #ccc; padding: 10px; width: 250px; text-align: center;">
+            <h3>@toy.Name</h3>
+            <p><strong>Price:</strong> $@toy.Price</p>
+            <p><strong>Rating:</strong> @toy.Rating ⭐</p>
+            <p><strong>Reviews:</strong> @toy.ReviewsCount</p>
+            <p><a href="@toy.AffiliateLink" target="_blank">Buy Now</a></p>
+            <p><a href="https://pinterest.com/pin/create/button/?url=@toy.AffiliateLink&media=&description=Check%20out%20this%20toy!" target="_blank">Share on Pinterest</a></p>
+        </div>
+    }
+</div>

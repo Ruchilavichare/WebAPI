@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\controllers\\toycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:controllers\\toycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\services\\toyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:services\\toyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\toy\\comparison.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\toy\\comparison.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\toy\\bestforcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\toy\\bestforcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\controllers\\toycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:controllers\\toycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\toy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\toy\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\views\\toy\\bestforcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:views\\toy\\bestforcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5F97FA8-73AD-419C-8837-4BEA628A4225}|ToyMVC.csproj|c:\\users\\ruchila\\source\\repos\\webapi\\toymvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -54,59 +58,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BestForCategory.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\BestForCategory.cshtml",
-              "RelativeDocumentMoniker": "Views\\Toy\\BestForCategory.cshtml",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\BestForCategory.cshtml",
-              "RelativeToolTip": "Views\\Toy\\BestForCategory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T19:13:22.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T19:07:59.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ToyService.cs",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Services\\ToyService.cs",
               "RelativeDocumentMoniker": "Services\\ToyService.cs",
               "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Services\\ToyService.cs",
               "RelativeToolTip": "Services\\ToyService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T19:09:45.955Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ToyController.cs",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Controllers\\ToyController.cs",
               "RelativeDocumentMoniker": "Controllers\\ToyController.cs",
               "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Controllers\\ToyController.cs",
               "RelativeToolTip": "Controllers\\ToyController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAASwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T19:11:29.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Toy\\Index.cshtml",
@@ -119,13 +97,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-19T19:14:04.688Z",
               "EditorCaption": ""
@@ -133,6 +111,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:07:59.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comparison.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\Comparison.cshtml",
+              "RelativeDocumentMoniker": "Views\\Toy\\Comparison.cshtml",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\Comparison.cshtml",
+              "RelativeToolTip": "Views\\Toy\\Comparison.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T08:34:03.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BestForCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\BestForCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Toy\\BestForCategory.cshtml",
+              "ToolTip": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\BestForCategory.cshtml",
+              "RelativeToolTip": "Views\\Toy\\BestForCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T19:13:22.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -140,12 +156,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-19T19:15:02.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T19:15:02.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DealsOfTheDay.cshtml",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\DealsOfTheDay.cshtml",
               "RelativeDocumentMoniker": "Views\\Toy\\DealsOfTheDay.cshtml",
@@ -153,12 +168,11 @@
               "RelativeToolTip": "Views\\Toy\\DealsOfTheDay.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T19:13:46.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T19:13:46.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TopRated.cshtml",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Views\\Toy\\TopRated.cshtml",
               "RelativeDocumentMoniker": "Views\\Toy\\TopRated.cshtml",
@@ -166,12 +180,11 @@
               "RelativeToolTip": "Views\\Toy\\TopRated.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T19:12:59.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T19:12:59.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Toy.cs",
               "DocumentMoniker": "C:\\Users\\Ruchila\\source\\repos\\WebAPI\\ToyMVC\\Models\\Toy.cs",
               "RelativeDocumentMoniker": "Models\\Toy.cs",
@@ -179,8 +192,7 @@
               "RelativeToolTip": "Models\\Toy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T19:09:02.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T19:09:02.926Z"
             }
           ]
         }
