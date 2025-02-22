@@ -152,15 +152,28 @@ namespace HotelManagementSystem.Controllers
                 .Select(c => new SelectListItem
                 {
                     Value = c.CustomerId.ToString(),
-                    Text = c.Name
+                    Text = c.Name,
+                    Selected = order != null && order.CustomerId.HasValue && c.CustomerId == order.CustomerId.Value
                 }).ToList();
+
+            // Extract selected menu items from the order
+            var selectedItems = order?.OrderItems
+             .Where(oi => oi.MenuId.HasValue) 
+             .ToDictionary(oi => oi.MenuId ?? 0, oi => oi.Quantity)
+             ?? new Dictionary<int, int>();
+
+            var TotalAmount = order?.TotalAmount > 0 ? order.TotalAmount : 0;
+            ViewBag.TotalAmount = TotalAmount;
 
             // Convert Menus to SelectListItem
             ViewBag.Menus = _context.Menus
-                .Select(m => new SelectListItem
+                .Select(m => new
                 {
                     Value = m.MenuId.ToString(),
-                    Text = $"{m.ItemName} - {m.Price:C}"
+                    Text = $"{m.ItemName} - {m.Price:C}",
+                    EditText = selectedItems.ContainsKey(m.MenuId)
+                                ? $"{selectedItems[m.MenuId]}"
+                                : ""
                 }).ToList();
 
             return View(order);

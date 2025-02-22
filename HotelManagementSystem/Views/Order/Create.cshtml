@@ -18,18 +18,18 @@
         <label for="MenuItems" class="control-label">Menu Items</label>
         <table class="table">
             <thead>
-                <tr>
-                    <th>Item</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
+                <tr width="100%">
+                    <th width="50%">Item</th>
+                    <th width="25%">Price</th>
+                    <th width="25%">Quantity</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var menu in ViewBag.Menus)
                 {
-                    <tr>
-                        <td>@menu.Text</td>
-                        <td>
+                    <tr width="100%">
+                        <td width="75%" colspan="2">@menu.Text</td>
+                        <td width="25%">
                             <input type="number" name="quantities" value="0" min="0" class="form-control" />
                             <input type="hidden" name="menuIds" value="@menu.Value" />
                         </td>
