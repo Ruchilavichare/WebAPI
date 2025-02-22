@@ -9,6 +9,7 @@ The **Hotel Management System** is a web-based application built using **ASP.NET
 3. **Menu Report Page**: Displays predefined menus for reference.
 4. **Daily Menu Management**: Admin can define and update the menu daily.
 5. **User-Friendly UI**: Enhanced with HTML, CSS, and JavaScript for a better user experience.
+6. **Menu Management**: You can create menus from the application. Additionally, a Web API (HotelManagementSystem.API) has been created to allow adding, deleting, and editing menus programmatically.
 
 ## Core and MVC Architecture
 The project follows a **Core and MVC** architecture, ensuring a clean separation of concerns:
@@ -29,6 +30,7 @@ The project follows a **Core and MVC** architecture, ensuring a clean separation
 - **Quantity Management**: Allows specifying the quantity for each item.
 - **Total Bill Calculation**: Computes the total amount dynamically.
 - **Database Persistence**: Orders and bills are stored securely in the database.
+- **Menu Management via Web API**: The HotelManagementSystem.API allows external applications to add, delete, and edit menus.
 
 ## Setup Instructions
 ### Prerequisites
@@ -50,12 +52,14 @@ The project follows a **Core and MVC** architecture, ensuring a clean separation
 - Navigate to the **Order Page** to place an order.
 - Access the **Menu Report Page** to see predefined menus.
 - Admins can **update the menu** on a daily basis.
+- Use the **Web API (HotelManagementSystem.API)** to manage menus programmatically.
 
 ## Technologies Used
 - **ASP.NET Core MVC**
 - **Entity Framework (Database-First)**
 - **SQL Server**
 - **HTML, CSS, JavaScript, jQuery**
+- **ASP.NET Core Web API**
 
 ## Contact
 For any issues or contributions, please reach out via [GitHub Issues](https://github.com/your-repo/issues).
