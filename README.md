@@ -41,7 +41,7 @@ The project follows a **Core and MVC** architecture, ensuring a clean separation
 ### Installation Steps
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/your-repo/hotel-management-system.git](https://github.com/Ruchilavichare/WebAPI/tree/main/HotelManagementSystem)
+   git clone git clone [https://github.com/your-repo/hotel-management-system.git](https://github.com/Ruchilavichare/WebAPI/tree/main/HotelManagementSystem)
    ```
 2. Open the project in **Visual Studio**.
 3. Update the **connection string** in `appsettings.json` to match your SQL Server.
