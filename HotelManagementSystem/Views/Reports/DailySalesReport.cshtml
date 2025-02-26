@@ -7,13 +7,19 @@
 <h1>Daily Sales Report</h1>
 
 <form asp-action="DailySalesReport" method="get">
-    <div class="form-group">
-        <label for="date" class="control-label">Select Date</label>
-        <input type="date" name="date" class="form-control" value="@ViewBag.SelectedDate" />
-    </div>
-    <div class="form-group">
-        <input type="submit" value="Generate Report" class="btn btn-primary" />
-    </div>
+    <table style="width: 100%;">
+        <tr>
+            <td>
+                <label for="date" class="control-label">Select Date</label>
+            </td>
+            <td>
+                <input type="date" name="date" class="form-control" value="@ViewBag.SelectedDate" />
+            </td>
+            <td>
+                <input type="submit" value="Generate Report" class="btn btn-primary" />
+            </td>
+        </tr>
+    </table>       
 </form>
 
 @if (Model == null || !Model.Any())

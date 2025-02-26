@@ -17,14 +17,25 @@ namespace HotelManagementSystem.Controllers
         }
 
         // GET: Order
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int pageSize = 5)
         {
+            var totalOrders = await _context.Orders.CountAsync();
             var orders = await _context.Orders
                 .Include(o => o.Customer)
-                .Include(o => o.OrderItems)
-                    .ThenInclude(oi => oi.Menu)
+                .OrderByDescending(o => o.OrderDate)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
                 .ToListAsync();
-            return View(orders);
+
+            var viewModel = new OrderListViewModel
+            {
+                Orders = orders,
+                CurrentPage = page,
+                PageSize = pageSize,
+                TotalOrders = totalOrders
+            };
+
+            return View(viewModel);
         }
 
         // GET: Order/Details/5
@@ -114,9 +125,9 @@ namespace HotelManagementSystem.Controllers
                         OrderId = order.OrderId,
                         MenuId = menuIds[i],
                         Quantity = quantities[i],
-                        Price = menu.Price
+                        Price = menu?.Price ?? 0
                     };
-                    totalAmount += menu.Price * quantities[i];
+                    totalAmount += (menu?.Price ?? 0) * quantities[i];
                     _context.OrderItems.Add(orderItem);
                 }
             }
@@ -153,7 +164,7 @@ namespace HotelManagementSystem.Controllers
                 {
                     Value = c.CustomerId.ToString(),
                     Text = c.Name,
-                    Selected = order != null && order.CustomerId.HasValue && c.CustomerId == order.CustomerId.Value
+                    Selected = order != null && c.CustomerId == order.CustomerId
                 }).ToList();
 
             // Extract selected menu items from the order
@@ -162,7 +173,7 @@ namespace HotelManagementSystem.Controllers
              .ToDictionary(oi => oi.MenuId ?? 0, oi => oi.Quantity)
              ?? new Dictionary<int, int>();
 
-            var TotalAmount = order?.TotalAmount > 0 ? order.TotalAmount : 0;
+            var TotalAmount = order?.TotalAmount > 0 ? order.TotalAmount  : 0;
             ViewBag.TotalAmount = TotalAmount;
 
             // Convert Menus to SelectListItem
@@ -231,9 +242,9 @@ namespace HotelManagementSystem.Controllers
                         OrderId = order.OrderId,
                         MenuId = menuIds[i],
                         Quantity = quantities[i],
-                        Price = menu.Price
+                        Price = menu?.Price ?? 0
                     };
-                    totalAmount += menu.Price * quantities[i];
+                    totalAmount += (menu?.Price ?? 0) * quantities[i];
                     _context.OrderItems.Add(orderItem);
                 }
             }

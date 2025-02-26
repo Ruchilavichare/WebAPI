@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,52 +8,117 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            flex-shrink: 0; /* Keep header and footer fixed */
+        }
+
+        .content {
+            flex: 1; /* Take up remaining space */
+            overflow-y: auto; /* Allow scrolling within content */
+            padding-bottom: 20px; /* Space before footer */
+        }
+
+        /* Fix footer position */
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative !important; /* Override forced styles */           
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Pagination styling */
+        .pagination {
+            margin: 20px 0; /* Add margin to the top and bottom of the pagination */
+            padding-bottom: 20px; /* Add padding to the bottom to prevent overlap */
+        }
+
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px; /* Add margin to the bottom */
+        }
+
+        .table td, .table th {
+            padding: 0.45rem;
+        }
+
+        .control-label{
+            font-weight : bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Hotel Management</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Customer" asp-action="Index">Customers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Order" asp-action="Index">Orders</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Reports" asp-action="DailySalesReport">Reports</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Reports" asp-action="MenuReport">Menu Report</a>
-                        </li>
-                    </ul>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" asp-controller="Home" asp-action="Index">Hotel Management</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Customer" asp-action="Index">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Order" asp-action="Index">Orders</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Reports" asp-action="DailySalesReport">Reports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Reports" asp-action="MenuReport">Menu Report</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <div class="container mt-4">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="footer bg-dark text-white mt-3">
-        <div class="container text-center py-2">
-            &copy; @DateTime.Now.Year - Hotel Management System
+        <div class="container content ">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
+
+       @*  <footer class="border-top footer text-muted">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container text-center py-2" style="color: #fff;">
+                &copy; @DateTime.Now.Year - Hotel Management System
+            </div>
+            </nav>
+        </footer> *@
+        <footer class="border-top footer text-muted">
+            <div class="container text-center py-2" style="color: #fff;">
+                &copy; @DateTime.Now.Year - Hotel Management System
+            </div>
+        </footer>
+    </div>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -62,6 +126,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Custom JS -->
     <script src="~/js/site.js"></script>
+
+    <!-- Enable Client-Side Validation -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

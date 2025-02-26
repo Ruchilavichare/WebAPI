@@ -4,12 +4,14 @@
     ViewData["Title"] = "Menu Items";
 }
 
-<h1>Menu Items</h1>
-
-<p>
-    <a asp-action="Create" class="btn btn-success">Add New Item</a>
-</p>
-
+<div>
+    <table style="width: 100%;">
+        <tr>
+            <td><h1>Menu Items</h1></td>
+            <td align="right"><a asp-action="Create" class="btn btn-success">Add New Item</a></td>
+        </tr>
+    </table>
+</div>
 <table class="table table-striped">
     <thead>
         <tr>

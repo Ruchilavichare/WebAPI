@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-07S50SayfZcNPqGsTQxaawBye0sS8WtS86uidzq0WqY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"610"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002207S50SayfZcNPqGsTQxaawBye0sS8WtS86uidzq0WqY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 17:58:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rHGJE03mpFEgKItxpnoFSj5y3QEe1Nlnkjo85UI4Twc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rHGJE03mpFEgKItxpnoFSj5y3QEe1Nlnkjo85UI4Twc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 13:24:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/css/site.r2rz10mpfq.css">
+    <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/css/site.kqrdci1u2k.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r2rz10mpfq"},{"Name":"integrity","Value":"sha256-07S50SayfZcNPqGsTQxaawBye0sS8WtS86uidzq0WqY="},{"Name":"label","Value":"_content/HotelManagementSystem/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"610"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002207S50SayfZcNPqGsTQxaawBye0sS8WtS86uidzq0WqY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 01 Feb 2025 17:58:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kqrdci1u2k"},{"Name":"integrity","Value":"sha256-rHGJE03mpFEgKItxpnoFSj5y3QEe1Nlnkjo85UI4Twc="},{"Name":"label","Value":"_content/HotelManagementSystem/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rHGJE03mpFEgKItxpnoFSj5y3QEe1Nlnkjo85UI4Twc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 13:24:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HotelManagementSystem.864r2pjodj.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"864r2pjodj"},{"Name":"integrity","Value":"sha256-4MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0="},{"Name":"label","Value":"_content/HotelManagementSystem/HotelManagementSystem.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 10:40:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 03:12:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/HotelManagementSystem.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HotelManagementSystem.864r2pjodj.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 10:40:21 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1139"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00224MMNoCcJGzN835BZRmz9FYv0AnWFLdvgI\u002B2CXHPHfh0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Feb 2025 03:12:54 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HotelManagementSystem/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

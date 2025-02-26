@@ -233,6 +233,10 @@
   "components": {
     "schemas": {
       "Menu": {
+        "required": [
+          "itemName",
+          "price"
+        ],
         "type": "object",
         "properties": {
           "menuId": {
@@ -240,10 +244,11 @@
             "format": "int32"
           },
           "itemName": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "price": {
+            "minimum": 0.01,
             "type": "number",
             "format": "double"
           }
